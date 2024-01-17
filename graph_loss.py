@@ -2,7 +2,6 @@ import matplotlib.pyplot as plt
 import json
 import os
 # JSON 파일 경로
-root = os.getcwd()
 #----------Experiment Info
 # model = 'RegNet'
 # batch = '32'
@@ -10,10 +9,13 @@ root = os.getcwd()
 # stride = '32'
 #------------------------
 def loss_graph(path, model, n_fft, hop_length, batch, kernel_size, stride):
-    file_path =  os.path.join(root,path,model,"result.json")
+    file_path =  os.path.join(os.getcwd(), path, model, "result.json")
 
-    new_folder = os.path.join(root,path,model,'loss_graph')
-    os.makedirs(new_folder)
+    new_folder = os.path.join(os.getcwd(), path, model, 'loss_graph')
+    try:
+        os.makedirs(new_folder)
+    except:
+        print(new_folder," is already existed")
                 
                 
     with open(file_path, 'r') as file:
@@ -34,4 +36,3 @@ def loss_graph(path, model, n_fft, hop_length, batch, kernel_size, stride):
     plt.legend(model_info, loc='upper right')
     os.chdir(new_folder)
     plt.savefig(model+'.png',bbox_inches='tight')
-    plt.show()

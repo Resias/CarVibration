@@ -71,15 +71,15 @@ class UntrimmedDataset(Dataset):
         y_data = torch.tensor(self.data[['y']].values[start_idx:end_idx]).view(-1)
         z_data = torch.tensor(self.data[['z']].values[start_idx:end_idx]).view(-1)
 
-        x_stft = torch.stft(input=x_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True)
-        y_stft = torch.stft(input=y_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True)
-        z_stft = torch.stft(input=z_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True)
+        x_stft = torch.stft(input=x_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True).to(self.device)
+        y_stft = torch.stft(input=y_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True).to(self.device)
+        z_stft = torch.stft(input=z_data,n_fft=self.n_fft,hop_length=self.hop_length,return_complex=True).to(self.device)
 
-        data_stft = torch.stack((x_stft,y_stft,z_stft)).float()
+        data_stft = torch.stack((x_stft,y_stft,z_stft)).float().to(self.device)
         other_columns = self.data[['uptime', 'class', 'end_file']]
 
         #class_tensor = torch.tensor(self.data['class'][start_idx:end_idx])
-        class_tensor = torch.tensor([int(value) for value in self.data['class'][start_idx:end_idx]])
+        class_tensor = torch.tensor([int(value) for value in self.data['class'][start_idx:end_idx]]).to(self.device)
 
         is_new = False
         if self.data['end_file'].isin([True]).any():
@@ -236,4 +236,3 @@ if __name__ == '__main__':
         
         if i == 1:  # 처음 3개의 배치만 확인
             break
-            

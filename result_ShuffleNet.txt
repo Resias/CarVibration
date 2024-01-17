@@ -1,0 +1,144 @@
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 32
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.9508196721311475 recall : 0.9508196721311475 precision : 0.9531615925058547
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.5901639344262295 recall : 0.5901639344262295 precision : 0.627852293426064
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 64
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.7213114754098361 recall : 0.7213114754098361 precision : 0.8117456314177626
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 64
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.47540983606557374 recall : 0.47540983606557374 precision : 0.3493831448965185
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 128
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.26229508196721313 recall : 0.26229508196721313 precision : 0.36928386540120794
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.2786885245901639 recall : 0.2786885245901639 precision : 0.2224824355971897
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.8852459016393442 recall : 0.8852459016393442 precision : 0.8960487599831862
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.639344262295082 recall : 0.639344262295082 precision : 0.6133669609079444
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 64
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.5737704918032787 recall : 0.5737704918032787 precision : 0.5825977301387137
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 64
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.39344262295081966 recall : 0.39344262295081966 precision : 0.40562060889929746
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 0.19672131147540983 recall : 0.19672131147540983 precision : 0.038699274388605216
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.19672131147540983 recall : 0.19672131147540983 precision : 0.038699274388605216
+
+CPD_config:
+ nfft : 64
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.5245901639344263 recall : 0.5245901639344263 precision : 0.5709731980223784
+
+CPD_config:
+ nfft : 64
+ hop_length : 32
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.5573770491803278 recall : 0.5573770491803278 precision : 0.6190094430064232
+
+CPD_config:
+ nfft : 64
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.19672131147540983 recall : 0.19672131147540983 precision : 0.038699274388605216
+
+CPD_config:
+ nfft : 64
+ hop_length : 32
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 0.19672131147540983 recall : 0.19672131147540983 precision : 0.038699274388605216
+

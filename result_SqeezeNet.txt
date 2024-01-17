@@ -1,0 +1,144 @@
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 32
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 64
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 64
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 128
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 8
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 64
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 64
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 32
+ stride_size : 16
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 32
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 64
+ hop_length : 16
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 64
+ hop_length : 32
+ batch_size : 32
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 64
+ hop_length : 16
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
+CPD_config:
+ nfft : 64
+ hop_length : 32
+ batch_size : 128
+ kernel_size : 64
+ stride_size : 32
+
+accuracy : 1.0 recall : 1.0 precision : 1.0
+
